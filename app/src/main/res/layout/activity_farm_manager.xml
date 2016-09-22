@@ -38,13 +38,27 @@
         android:orientation="horizontal">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="125dp"
+            android:layout_height="75dp"
             android:text="@string/btn_turnfan"
             android:layout_gravity="center"
             android:padding="10dp"
-            android:background="@color/pink"
+            android:background="@drawable/fan_background"
             android:onClick="closeApp"
+            android:layout_margin="@dimen/side_margin"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="75dp"
+            android:text="@string/btn_turn_fanNsprinkler"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/sprinkler_background"
+            android:onClick="closeApp"
+            android:layout_margin="@dimen/side_margin"
+            android:textAllCaps="false"
             android:textColor="@android:color/white"
             />
 
