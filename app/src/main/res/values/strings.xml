@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FarmManager</string>
+    <string name="activity_label">Farm Manager</string>
+</resources>
