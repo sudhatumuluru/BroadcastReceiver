@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:background="@color/dark_grey"
@@ -26,11 +25,42 @@
         android:text="@string/screen_title"
         android:textAlignment="center"
         android:layout_gravity="center"
-        android:textSize="@dimen/textsize"
+        android:textSize="@dimen/title_text_size"
         android:layout_marginLeft="@dimen/side_margin"
         android:layout_marginRight="@dimen/side_margin"
+        android:layout_marginBottom="@dimen/side_margin"
         android:textColor="@android:color/white"
         android:background="@drawable/rounded_corner"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/temp_limitA"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false" />
+
+        <View
+            android:layout_width="@dimen/line_wd"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/temp_limitB"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,10 +75,17 @@
             android:padding="10dp"
             android:background="@drawable/fan_background"
             android:onClick="closeApp"
-            android:layout_margin="@dimen/side_margin"
+            android:layout_marginLeft="@dimen/side_margin"
+            android:layout_marginRight="20dp"
             android:textColor="@android:color/white"
-            android:textAllCaps="false"
-            />
+            android:textAllCaps="false" />
+
+        <View
+            android:layout_width="@dimen/line_wd"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_margin="5dp"/>
+
         <Button
             android:layout_width="125dp"
             android:layout_height="75dp"
@@ -57,7 +94,8 @@
             android:padding="10dp"
             android:background="@drawable/sprinkler_background"
             android:onClick="closeApp"
-            android:layout_margin="@dimen/side_margin"
+            android:layout_marginRight="@dimen/button_margin"
+            android:layout_marginLeft="20dp"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
             />

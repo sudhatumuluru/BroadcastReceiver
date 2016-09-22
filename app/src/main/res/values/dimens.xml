@@ -5,4 +5,7 @@
     <dimen name="textsize">35sp</dimen>
     <dimen name="margin">20dp</dimen>
     <dimen name="side_margin">45dp</dimen>
+    <dimen name="button_margin">20dp</dimen>
+    <dimen name="line_wd">3dp</dimen>
+    <dimen name="title_text_size">30sp</dimen>
 </resources>

@@ -4,4 +4,6 @@
     <string name="screen_title">Temperature & Humidity</string>
     <string name="btn_turnfan">Turn FAN</string>
     <string name="btn_turn_fanNsprinkler">Turn FAN & Sprinkler</string>
+    <string name="temp_limitA">Temparature(F) > 70 & Temparature(F) < 90 </string>
+    <string name="temp_limitB">Temparature(F) > 90 & Temparature(F) < 125 </string>
 </resources>
