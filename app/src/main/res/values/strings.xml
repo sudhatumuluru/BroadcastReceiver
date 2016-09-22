@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">FarmManager</string>
     <string name="activity_label">Farm Manager</string>
+    <string name="screen_title">Temperature & Humidity</string>
+    <string name="btn_turnfan">Turn FAN</string>
 </resources>
