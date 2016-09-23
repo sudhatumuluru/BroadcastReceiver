@@ -18,8 +18,7 @@ public class FarmManager extends AppCompatActivity {
     private Button turnFanSprinklerOn;
     private String FAN_ON = "FAN_ON";
     private String FAN_SPRINKLER_ON = "FAN_SPRINKLER_ON";
-    //private String STATUS;
-    //String status;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,19 +35,9 @@ public class FarmManager extends AppCompatActivity {
                 Toast.LENGTH_LONG).show();
         if(temperature >  70 && temperature < 90){
             turnFanSprinklerOn.setVisibility(View.GONE);
-            //turnFanOn.setEnabled(true);
-            //turnFanSprinklerOn.setEnabled(false);
-            //status = "FAN_ON";
-
         }else if(temperature >90 && temperature <125){
             turnFanOn.setVisibility(View.GONE);
-            //turnFanOn.setEnabled(false);
-            //turnFanSprinklerOn.setEnabled(true);
-            //status = "FAN_SPRINKLER_ON";
         }
-        /* Intent intent = new Intent("poultry.farm.iot.status");
-        intent.putExtra(STATUS, status);
-        sendBroadcast(intent); */
     }
 
     public void onTurnFanOn(View v){

@@ -43,13 +43,12 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="130dp"
+                android:layout_width="160dp"
                 android:layout_height="50dp"
                 android:text="@string/temp_limitA"
                 android:paddingLeft="5dp"
                 android:paddingRight="10dp"
                 android:layout_marginTop="@dimen/text_margin"
-                android:layout_marginLeft="@dimen/text_margin"
                 android:textColor="@android:color/white"
                 android:textAllCaps="false" />
 
